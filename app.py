@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Inter', sans-serif !important; color: var
     font-size: 0.875rem;
     line-height: 1.7;
     color: var(--text);
-    white-space: pre-wrap;
+    white-space: normal;
     word-break: break-word;
 }
 
@@ -165,6 +165,15 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Inter', sans-serif !important; color: var
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+}
+.card-content ul, .card-content ol {
+    padding-left: 1.5rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.card-content li {
+    margin-bottom: 0.25rem !important;
 }
 .badge-purple { background: rgba(59,109,216,0.2); color: var(--accent-glow); border: 1px solid rgba(59,109,216,0.3); }
 .badge-cyan   { background: rgba(6,182,212,0.15); color: var(--accent-2);    border: 1px solid rgba(6,182,212,0.3); }
