@@ -1,0 +1,21 @@
+# Environment
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated audio
+downloades/
+
+# Chroma DB
+vector_db/
+
+# Database
+*.sqlite3
+
+# Audio
+*.wav
+*.mp3
+*.mp4
